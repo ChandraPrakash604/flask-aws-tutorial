@@ -13,7 +13,8 @@ from application.models import Data
 from application.forms import EnterDBInfo, RetrieveDBInfo
 
 # Elastic Beanstalk initalization
-application = Flask(__name__)
+#application = Flask(__name__)
+application=app=Flask(__name__)
 application.debug=True
 # change this to your own value
 application.secret_key = 'cC1YCIWOj9GgWspgNEo2'   

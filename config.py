@@ -5,7 +5,8 @@
 
 #SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://flaskdemo:flaskdemo@flaskdemo.cwsaehb7ywmi.us-east-1.rds.amazonaws.com:3306/flaskdemo'
 #SQLALCHEMY_DATABASE_URI = ‘mysql+pymysql://flask:flask12345@flasktest.cvgz3svkybfy.us-east-1.rds.amazonaws.com:3306/flasktest'
-SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://flask:flask12345@flask.cvgz3svkybfy.us-east-1.rds.amazonaws.com:3306/flasktest'
+#SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://flask:flask12345@flask.cvgz3svkybfy.us-east-1.rds.amazonaws.com:3306/flasktest'
+SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://flask:flask12345@flasktest.chimitdqaues.us-east-1.rds.amazonaws.com:3306/flasktest'
 # Uncomment the line below if you want to work with a local DB
 #SQLALCHEMY_DATABASE_URI = 'sqlite:///test.db'
 
